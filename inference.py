@@ -30,6 +30,6 @@ if __name__ == '__main__':
     # model = pd.read_pickle(r'churn_model.pkl')
     # df = pd.read_csv('X_test.csv')
     # y_pred = np.loadtxt('preds.csv')
-    # loaded_model = pickle.load(open('churn_model.pkl', 'rb'))
+    #loaded_model = pickle.load(open('churn_model.pkl', 'rb'))
 
-    app.run()
+    app.run(host='0.0.0.0')
